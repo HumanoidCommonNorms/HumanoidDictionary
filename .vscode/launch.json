@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DicConverter: defalut filse",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/script/dic_converter.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/script/data.tsv",
+                "-t ${workspaceFolder}"
+            ]
+        },
+        {
+            "name": "DicConverter: remove files",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/script/dic_converter.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/script/data.tsv",
+                "--verbose",
+                "--remove",
+                "-t ${workspaceFolder}"
+            ]
+        },
+        {
+            "name": "DicConverter: --help",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/script/dic_converter.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--help"
+            ]
+        },
+        {
+            "name": "DicConverter: -v",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/script/dic_converter.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-v"
+            ]
+        }
+    ]
+}

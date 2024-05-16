@@ -1,4 +1,4 @@
 
-@import "ワ/_toc.md"
-@import "ヲ/_toc.md"
-@import "ン/_toc.md"
+@import "ワ/_chapter.md"
+@import "ヲ/_chapter.md"
+@import "ン/_chapter.md"

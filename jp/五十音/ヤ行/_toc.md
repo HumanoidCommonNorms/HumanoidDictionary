@@ -1,3 +1,3 @@
-@import "ヤ/_toc.md"
-@import "ユ/_toc.md"
-@import "ヨ/_toc.md"
+@import "ヤ/_chapter.md"
+@import "ユ/_chapter.md"
+@import "ヨ/_chapter.md"

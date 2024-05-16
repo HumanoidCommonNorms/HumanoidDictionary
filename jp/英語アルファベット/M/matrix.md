@@ -1,0 +1,9 @@
+<article id="matrix">
+
+### matrix
+
+<p class="st_update_header">2024-05-16</p>
+<p class="st_name_header_en">Matrix</p>
+<p class="st_name_header_jp">行列(ぎょうれつ)</p>
+<div class="article_explanation">数値を長方形の配列で表現したもの。線形代数で使用される。</div>
+</article>

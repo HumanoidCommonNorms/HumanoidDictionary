@@ -1,4 +1,5 @@
-.htaccess
+*/.DS_Store
+*/.htaccess
 css.php
 rpc/
 sites/site*/admin/
@@ -9,3 +10,4 @@ sites/site*/public/theme/
 textpattern/
 HISTORY.txt
 README.txt
+*/~$*

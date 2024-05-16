@@ -20,3 +20,7 @@ export_on_save:
 <div style="page-break-before:always"></div>
 
 @import "jp/英語アルファベット/_toc.md"
+
+<div style="page-break-before:always"></div>
+
+@import "jp/数字/_toc.md"
