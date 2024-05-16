@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/**.html": true,
+			"HumaroidCommonInterface/contents/**.html": true,
+			"HumaroidCommonInterface/contents/**.pdf": true
+		},
+		"cSpell.words": [
+			"Humaroid",
+			"samplerate",
+			"startuml",
+			"startwbs",
+			"enduml",
+			"endwbs"
+		],
+		"markdown.extension.print.onFileSave": false,
+		"markdown-preview-enhanced.imageFolderPath": "${workspaceFolder}/assets",
+		"markdown-preview-enhanced.previewTheme": "github-dark.css",
+		"markdown-preview-enhanced.printBackground": false,
+		"markdown-preview-enhanced.revealjsTheme": "black.css"
+	},
+	"extensions": {
+		"recommendations": [
+			"streetsidesoftware.code-spell-checker",
+			"saikou9901.evilinspector",
+			"mhutchie.git-graph",
+			"shardulm94.trailing-spaces",
+			"yzhang.markdown-all-in-one",
+			"shd101wyy.markdown-preview-enhanced"
+		]
+	}
+}

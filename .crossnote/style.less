@@ -1,0 +1,125 @@
+body {
+  counter-reset: chapter;
+}
+
+h2 {
+  counter-reset: sub-chapter;
+}
+
+h3 {
+  counter-reset: section;
+}
+
+h4 {
+  counter-reset: indexlist;
+}
+
+h1::before {
+  counter-reset: chapter;
+}
+
+h2::before {
+  counter-increment: chapter;
+  content: "";
+  page-break-before: always;
+  page-break-inside: auto;
+}
+
+h3::before {
+  counter-increment: sub-chapter;
+  content: "";
+}
+
+h4::before {
+  counter-increment: section;
+  content: "";
+}
+
+h5::before {
+  counter-increment: indexlist;
+  content: "";
+}
+
+#sidebar-toc-btn {
+  bottom: unset;
+  top: 8px;
+}
+
+.markdown-preview.markdown-preview {
+  h2 {
+    border-bottom: 4px solid #eaecef;
+  }
+
+  h3 {
+    border-bottom: 1px solid #eaecef;
+  }
+}
+
+td {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.md-sidebar-toc.md-sidebar-toc {
+  padding-top: 40px;
+}
+
+#sidebar-toc-btn {
+  bottom: unset;
+  top: -0.1em;
+}
+
+html body p {
+  margin-bottom: 0px;
+}
+
+.st_name_header_en::before {
+  color: gray;
+  content: "英語 : ";
+  width: 4.5em;
+  display: inline-block;
+}
+
+.st_name_header_jp::before {
+  color: gray;
+  content: "日本語 : ";
+  width: 4.5em;
+  display: inline-block;
+}
+
+.st_name_header_abbreviation::before {
+  color: gray;
+  content: "略語 : ";
+  width: 4.5em;
+  display: inline-block;
+}
+
+.st_update_header::before {
+  color: gray;
+  content: "更新日 : ";
+  width: 4.5em;
+  display: inline-block;
+}
+
+
+.st_name_header_en {
+  font-weight: bold;
+}
+
+.st_name_header_jp {
+  font-weight: bold;
+}
+
+.st_name_header_abbreviation {
+  font-weight: bold;
+}
+
+
+.st_update_header {
+  font-weight: bold;
+  text-align: right;
+}
+
+.article_explanation {
+  margin: 0.5em;
+}

@@ -1,0 +1,5 @@
+@import "タ/_toc.md"
+@import "チ/_toc.md"
+@import "ツ/_toc.md"
+@import "テ/_toc.md"
+@import "ト/_toc.md"
